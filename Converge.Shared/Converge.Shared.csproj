@@ -6,7 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup> 
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Core" Version="3.7.400.61" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.410.3" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.1.1" />
 	<PackageReference Include="Microsoft.AspNetCore.App" />
 	<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
