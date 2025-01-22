@@ -31,10 +31,10 @@ namespace Converge.Shared.Helper
 
         //    try
         //    {
-        //        var bucketName = configuration["AAWS:BucketName"];
-        //        var accessKey = configuration["AAWS:AccessKey"];
-        //        var secretKey = configuration["AAWS:SecretKey"];
-        //        var region = configuration["AAWS:Region"];
+        //        var bucketName = configuration["AWS:BucketName"];
+        //        var accessKey = configuration["AWS:AccessKey"];
+        //        var secretKey = configuration["AWS:SecretKey"];
+        //        var region = configuration["AWS:Region"];
         //        using var s3Client = new AmazonS3Client(accessKey, secretKey, RegionEndpoint.USEast1);
         //        using var transferUtility = new TransferUtility(s3Client);
 
