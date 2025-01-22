@@ -91,7 +91,7 @@ namespace BusinessLogicLayer.Service
                             await browser.CloseAsync();
                             if (searchReportsFolderPath != null && searchReportsFolderPath.Length > 0)
                             {
-                                pdfFilePath = null;//await Helper.AttachFileToS3Async(pdfFilePath, _configuration, pdfFileName, res.BrandCode, res.BrandId);
+                                pdfFilePath = await Helper.AttachFileToS3Async(pdfFilePath, _configuration, pdfFileName, res.BrandCode, res.BrandId);
                             }
                             if (File.Exists(Path.Combine(searchReportsFolderPath, pdfFileName)))
                             {
